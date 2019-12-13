@@ -1,6 +1,6 @@
 [tool.black]
 line_length = 79
-target_version = ["py37"]
+target_version = ["py36"]
 
 [tool.poetry]
 name = "aiohttp-cache"
@@ -27,7 +27,7 @@ repository = "https://github.com/cr0hn/aiohttp-cache"
 license = "BSD"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.6"
 aiohttp = "^3.6"
 envparse = "^0.2.0"
 aioredis = "^1.3"
